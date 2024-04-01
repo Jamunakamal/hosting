@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>regform</title>
+<link rel="stylesheet" href="regform.css">
+</head>
+<body class="color">
+<center>
+<h1> Registration form</h1>
+</center>
+<div class="style">
+<div class="photo"> passport size photo</div>
+<form action="lastpage.html" class="form">
+
+<label> First name:</label>
+<input required type ="text" placeholder name="fname">
+<br><br>
+
+<label> Last name: </label>
+<input type ="text" name="lname">
+<br><br>
+
+<label> Moblie number: </label>
+<input required type ="number" name="num">
+<br><br>
+
+<label> Date of birth: </label>
+<input required type ="date" name="dob">
+<br><br>
+
+<label> Age: </label>
+<input required type ="number" name="age">
+<br><br>
+
+<label> Sex: </label>
+<input type ="radio" name="gender">Male
+<input type ="radio" name="gender">Female
+<input type ="radio" name="gender">Netural
+<br><br>
+
+<label> Email ID: </label>
+<input required type ="text" name="id">
+<br><br>
+
+<label> Password </label>
+<input required type ="password" name="pwd">
+<br><br>
+
+<label>Known language: </label>
+<input type ="checkbox" name="English">English
+<input type ="checkbox" name="Tamil">Tamil
+<input type ="checkbox" name="hindi">Hindi
+<br><br>
+
+<label> Country: </label>
+<select required name="country">
+<option value="">select</option>
+<option value="India">India</option>
+<option value="Srilanka">Srilanka</option>
+<option value="China">China</option>
+<option value="Japan">Japan</option>
+<option value="Singapore">Singapore</option>
+<option value="America">America</option>
+</select>
+<br><br>
+
+<label> Zip code: </label>
+<input required type ="number" name="code">
+<br><br>
+
+<label>Address: </label>
+<textarea maxlength="100" row="7" name="address"></textarea>
+<br><br>
+
+<label>About: </label>
+<textarea maxlength="150" row="7" name="about"></textarea>
+<br><br>
+</div>
+<center>
+<input type="submit" class="color2" name="submit">
+<input type="Reset" class="color2" name="reset">
+</center>
+</form>
+</body>
+</html>
